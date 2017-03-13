@@ -1,0 +1,35 @@
+{
+  "name": "@ambassify/backoff-strategies",
+  "version": "1.0.0",
+  "description": "Backoff strategies for retrying things like HTTP requests.",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">= 6"
+  },
+  "scripts": {
+    "release": "npm version patch && npm publish",
+    "test": "npm -s run test:lint && npm -s run test:unit",
+    "test:lint": "eslint src",
+    "test:unit": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambassify/backoff-strategies.git"
+  },
+  "keywords": [
+    "exponential backoff",
+    "backoff"
+  ],
+  "author": "Ambassify <dev@ambassify.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ambassify/backoff-strategies/issues"
+  },
+  "homepage": "https://github.com/ambassify/backoff-strategies#readme",
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-ambassify": "^1.0.0",
+    "mocha": "^3.2.0",
+    "nyc": "^10.1.2"
+  }
+}
