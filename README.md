@@ -1,6 +1,10 @@
 # backoff-strategies
 
-[![CircleCI](https://circleci.com/gh/ambassify/backoff-strategies/tree/master.svg?style=svg)](https://circleci.com/gh/ambassify/backoff-strategies/tree/master)
+![CircleCI](https://img.shields.io/circleci/project/github/ambassify/backoff-strategies.svg)
+[![npm version](https://img.shields.io/npm/v/@ambassify/backoff-strategies.svg)](https://www.npmjs.com/package/@ambassify/backoff-strategies)
+[![npm downloads](https://img.shields.io/npm/dt/@ambassify/backoff-strategies.svg)](https://www.npmjs.com/package/@ambassify/backoff-strategies)
+[![maintainer](https://img.shields.io/badge/maintainer-Gertt-brightgreen.svg)](https://github.com/Gertt)
+
 
 Backoff strategies for retrying things like HTTP requests.
 
