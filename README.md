@@ -1,5 +1,7 @@
 # backoff-strategies
 
+[![CircleCI](https://circleci.com/gh/ambassify/backoff-strategies/tree/master.svg?style=svg)](https://circleci.com/gh/ambassify/backoff-strategies/tree/master)
+
 Backoff strategies for retrying things like HTTP requests.
 
 ## Installation
